@@ -1,0 +1,65 @@
+﻿tag for Header in Body
+H1->H6 : default 
+CCS
+	- Inline: chung vòng với thẻ là inline
+	- Internal: <style></style> in head tag
+	- External: main.css
+rel -> relationship
+href -> hyper reference
+Font chữ quyết định càn làm trc 
+<b>,<i> => obsolete
+<b>=> <strong> -> làm cho chữ nổi bật và mỗi trình duyệt tự quy định để hiển thị
+<i> => <em>-> emphasize -> nhấn mạnh và mỗi trình duyệt tự quy định để hiển thị
+ko dùng px cho typhography -> phải sử dụng em (M)
+1em~16px -> base;
+->2em ~ 32px;
+
+
+Layout
+	+Display
+		inline
+			nằm kế bên nhau
+			tag: <a>, <span>
+		inline-block 
+			có thể chỉnh width vs height
+		block 
+			có thể chỉnh width vs height 
+			chiếm toàn bộ chiều ngang -> width=100%
+			tag: div, h1, h5...
+	+Position
+	+Float
+BOx Model
+padding - margin - border
+padding: top, right, bottom, left
+padding: top + bottom, left + right
+padding: top, left + right, bottom
+collapsed
+
+
+color red->255Endcoding color table
+background-size: contain -> chua ca contain
+cover se co gian ra  
+sprite -> lấy vùng cần hiện lên
+
+canh giữa 
+text+inline{
+
+	+horizontal: text-aglin
+	+vertial
+}
+	+horizontal: 
+		+text+inline
+	+Vertial
+
+
+text có nhiều dòng thì phải gop vào 1 element phải reset line-hight, display:inline-block và verti-align:middle
+vertical: ko phải dùng đễ canh giữa giữa thẻ con và thẻ cha theo chiều đứng-> canh giữa là giữa các thằng con vs nhau 
+dùng lại cùng định dạng cho các implement dùng class
+
+border - radius : a b c d, a - c + b - d
+a                             b
+
+
+d                             c
+
+

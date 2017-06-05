@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact - My Porfolio</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="web development, software design, css, html, js, and much more....">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /*Internal css*/
+        
+        h3 {
+            color: aqua;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="experience.html">My Experience</a></li>
+                <li><a href="contact.html" class="link_button">Contact Me</a></li>
+            </ul>
+        </nav>
+        <h1>
+            Contact Me
+        </h1>
+        <h3>
+            <!--Inline CSS-->
+           SELECT A CONVENIENT WAY TO CONTACT ME
+        </h3>
+    </header>
+    <section id="contact_wrapper">
+        <section id="contact_form">
+            <form action="/" autocomplete="off">
+                <fieldset id="basic_info">
+                    <legend><span>1 </span> Basic Info</legend>
+                    <label for="name">Your Name:</label>
+                    <input required type="text" id="name" placeholder="Input your name" maxlength="30">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email#address.com">
+
+                    <label>You are:</label>
+                    <input checked type="radio" name="you_are" id="individual">
+                    <label for="individual" class="light">Individual</label>
+
+                    <input type="radio" name="you_are" id="corporate">
+                    <label for="corporate" class="light">Corporate</label>
+
+                    <label for="why_contact">Why do you contact me?</label>
+                    <textarea id="why_contact" cols="50" rows="10"></textarea>
+                </fieldset>
+                <fieldset id="about_you">
+                    <legend><span>2 </span> About you</legend>
+
+                    <label>What is your website?</label>
+                    <input type="url">
+
+                    <label>What are areas of your projects?</label>
+                    <input type="checkbox"> <label class="light">Health Care</label>
+                    <input type="checkbox"> <label class="light">Finance</label>
+                    <input type="checkbox"> <label class="light">Education</label>
+
+                    <label>How many people in your company</label>
+                    <select>
+                        <option selected>1 - 10</option>
+                        <option>11 - 20</option>
+                        <option>21 - 50</option>
+                        <option>51 - 100</option>
+                        <option>More than 100</option>
+                    </select>
+
+                    <label>What is your role?</label>
+                    <select>
+                        <optgroup label="Web">
+                            <option>Web Developer</option>
+                            <option>Web Designer</option>
+                            <option>Full Stack Web Developer</option>
+                        </optgroup>
+                        <optgroup label="Architecture">
+                            <option>Software Architect</option>
+                            <option>Database Architect</option>
+                            <option>System Architect</option>
+                        </optgroup>
+                        <option>Other</option>
+                    </select>
+                </fieldset>
+                <button type="submit">
+                    Contact me NOW
+                </button>
+                <button type="reset">Cancel</button>
+            </form>
+            <address id="call_me">
+                0121-7714983
+            </address>
+        </section>
+    </section>
+    <div class="clear"></div>
+    <!--horizontal row-->
+    <footer>
+        <p>
+            <a id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+            <a id="google"><i class="fa fa-google-plus-official" aria-hidden="true"></i> Google+</a>
+            <a id="twister"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+        </p>
+        <div>&copy; 2017 - Tô Thành Đạt</div>
+    </footer>
+</body>
+
+</html>
